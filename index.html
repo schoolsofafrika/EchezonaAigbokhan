@@ -3,18 +3,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <title>Tribute</title>
+    <style>
+      *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+      }
+      body{
+        font-family: 'Source Sans Pro', sans-serif;
+  
+        color: #333;
+      }
+      h1{
+        font-weight: 900;
+      }
+      h3{
+        font-weight: 300;
+      }
+      h4{
+        font-weight: 400;
+      }
+      #main{
+        text-align: center;
+        padding: 30px;
+        border-radius: 5px;
+        background-color: rgb(214, 213, 213);
+      }
+      @media screen and (max-width: 480px) {
+          main{
+            padding:10px
+          }
+      }
+      #img-div{
+        padding: 10px;
+        margin-top:20px;
+      }
+      #img-caption{
+        margin-top:10px;
+        
+      }
+      #image{
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+      }
+      .tribute-info{
+        width:60%;
+      }
+    </style>
 </head>
 <body>
 
 <div id="main">
-    <div id="title">Dr. Norman Borlaug</div>
+    <h1 id="title">Chief Samuel Ladoke Akintola</h1>
+    <h4>The man whose tribal marks his smiles</h4>
     <div id="img-div">
-      <img src="" id="image">
-      <p id="img-caption"></p>
+      <img src="images/samuelAkintola.jpg" id="image">
+      <h3 id="img-caption">Samuel Akíntọ́lá with David Ben-Gurion during a visit to Israel in 1961</h3>
     </div>
-    <div id="tribute-info"></div>
-    <a href="" targer="_blank">
+    <div id="tribute-info">
+      <p>Chief Samuel Ládòkè Akíntọ́lá, otherwise known as S.L.A. (6 July 1910 – 15 January 1966), was a Nigerian politician, lawyer, aristocrat and orator who was born in Ogbomosho, of the then Western Region. In addition to serving as one of the founding fathers of modern Nigeria, he was also elevated to the position of Oloye Aare Ona Kakanfo XIII of the Yoruba. <a href="" targer="_blank" id="tribute-link"> Read more</a>
+      </p>
+    </div>
+    
   </div>
 
 </body>
